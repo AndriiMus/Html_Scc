@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-flow: column;
+}
+.container-item1 {
+  overflow: hidden;
+  margin: 0px;
+}
