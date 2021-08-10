@@ -6,7 +6,7 @@ body{
    flex-flow: column wrap;
    
 }
-main{
+.articles-list{
     min-width: 300px;
     flex-flow:  wrap;
     display: flex;
