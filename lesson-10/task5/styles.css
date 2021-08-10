@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    display: flex;
+   flex-flow: column wrap;
+   
+}
+main{
+    min-width: 300px;
+    flex-flow:  wrap;
+    display: flex;
+     
+     
+}
+header{
+    display: flex;
+justify-content: center;
+
+
+}
+.article{
+    flex-grow: 1; 
+     flex-shrink: 0;
+    flex-basis: 300px;
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+}
