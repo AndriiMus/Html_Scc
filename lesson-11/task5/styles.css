@@ -1,0 +1,9 @@
+.gallery{
+    max-height:  225px;
+    overflow: auto;
+    cursor: all-scroll;
+}
+.thumb{
+margin: 8px;
+
+}
