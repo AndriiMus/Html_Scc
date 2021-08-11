@@ -10,7 +10,7 @@
     cursor: all-scroll;
 }
 .thumb{
-    display: inline-block;
+    display: block;
 margin: 8px;
 
 }
