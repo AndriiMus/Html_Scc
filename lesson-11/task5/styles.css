@@ -6,11 +6,11 @@
     flex-flow: nowrap;
    overflow-y: hidden;
     overflow-x: auto;
-   height: 225px;
+ 
     cursor: all-scroll;
 }
 .thumb{
-    display: block;
+    display: inline-block;
 margin: 8px;
 
 }
