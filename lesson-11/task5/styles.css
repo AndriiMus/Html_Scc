@@ -1,9 +1,15 @@
+*{
+    box-sizing: border-box;
+}
 .gallery{
-    max-height:  225px;
-    overflow: auto;
+    white-space:nowrap;
+   overflow-y: hidden;
+    overflow-x: scroll;
+   height: 225px;
     cursor: all-scroll;
 }
 .thumb{
+    display: inline-block;
 margin: 8px;
 
 }
