@@ -1,28 +1,30 @@
-*{box-sizing: border-box;}
-.main-image{
-    margin: 50px auto 50px;
+* {
+  box-sizing: border-box;
+}
+.main-image {
+  margin: 50px auto 50px;
 
-    max-width: 100%;
-    border-radius: 20px;
-display: block;
+  max-width: 100%;
+  border-radius: 20px;
+  display: block;
 }
-.gallery{
-    display: flex;
+.gallery {
+  display: flex;
 }
-.caption{
-    line-height: 30px;
-    text-align: center;
+.caption {
+  line-height: 30px;
+  text-align: center;
 }
-.card{
-    margin: 16px;
-    box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);
+.card {
+  margin: 16px;
+  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
-.opacity-filter{
-    filter: opacity(50%);
+.opacity-filter {
+  filter: opacity(50%);
 }
-.blur-filter{
-    filter: blur(4px);
+.blur-filter {
+  filter: blur(4px);
 }
-.invert-filter{
-    filter: invert(100%);
+.invert-filter {
+  filter: invert(100%);
 }
