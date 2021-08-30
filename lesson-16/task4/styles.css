@@ -45,7 +45,7 @@ padding: 4px;
 }
 
 .form-input:invalid:required{
-    border: solid 4px #ff7f50;
+    border: solid 4px #ff0000;
 }
 
 .submit-button{
