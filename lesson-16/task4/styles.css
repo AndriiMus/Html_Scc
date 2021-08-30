@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    position: relative;
+  background-color: bisque;
+}
+main {
+   position: absolute;
+  top: calc(50% + 171px);
+  left: calc(50% - 150px);
+ 
+
+  padding: 16px;
+  width: 300px;
+  background-color: aqua;
+
+  font-family: monospace;
+  font-size: 16px;
+}
