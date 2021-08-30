@@ -5,7 +5,7 @@ body {
   position: relative;
   background-color: bisque;
 }
-form{
+form {
   position: absolute;
   top: calc(50% + 123px);
   left: calc(50% - 150px);
@@ -36,27 +36,27 @@ form{
 .form-input {
   height: 32px;
   width: 100%;
-  
-padding: 4px;
+
+  padding: 4px;
 
   border-radius: 4px;
-  border:  solid 1px  #808080;
+  border:  1px solid #808080;
   outline: none;
 }
 
-.form-input:invalid:required{
-    border: solid 4px #ff0000;
+.form-input:invalid:required {
+  border:  3px solid #ff0000;
 }
 
-.submit-button{
-margin-top: 16px;
+.submit-button {
+  margin-top: 16px;
 
-    width: 100%;
-    height: 32px;
+  width: 100%;
+  height: 32px;
 
-    background-color: #ff7f50;
-    color: white;
-    text-transform: uppercase;
+  background-color: #ff7f50;
+  color: white;
+  text-transform: uppercase;
 
-    border-radius: 4px;
-    }
+  border-radius: 4px;
+}
