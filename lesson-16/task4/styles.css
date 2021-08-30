@@ -5,9 +5,9 @@ body {
   position: relative;
   background-color: bisque;
 }
-main {
+form{
   position: absolute;
-  top: calc(50% + 171px);
+  top: calc(50% + 172px);
   left: calc(50% - 150px);
 
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
