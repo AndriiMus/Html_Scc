@@ -1,6 +1,6 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 table {
   width: 500px;
@@ -19,7 +19,7 @@ td,
 th {
   padding: 4px;
   text-align: right;
-  line-height: 36px;
+  line-height: 40px;
 
 }
 
