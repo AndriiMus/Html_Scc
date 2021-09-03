@@ -22,7 +22,9 @@ th {
   line-height: 40px;
 }
 
-
+tr{
+    padding: 4px;
+}
 
 tbody > tr:nth-child(odd) {
   background-color: #f2f2f2;
