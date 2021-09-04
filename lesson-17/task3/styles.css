@@ -4,9 +4,7 @@
   border-collapse: collapse;
 }
 
-.chess-board th {
-  padding: 0.5em;
-}
+
 
 .chess-board td {
   border: 1px solid black;
