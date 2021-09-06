@@ -1,4 +1,5 @@
 .body {
+    display: flex;
   justify-content: space-around;
 }
 .fa-battery-full {
