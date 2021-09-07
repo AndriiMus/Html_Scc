@@ -16,6 +16,10 @@
 
   transition-property: width, opacity;
   transition-duration: 2s, 0.5s;
+
+  text-align: center;
+ 
+  line-height: 100px;
 }
 
 .rect:hover {
