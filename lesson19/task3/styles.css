@@ -11,7 +11,7 @@
   text-transform: uppercase;
   animation: blinking 2s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
+ animation-timing-function: linear;
   font-family: monospace;
 }
 
@@ -24,5 +24,6 @@
   position: relative;
   background-color: black;
   animation: moving 2s, blinking 2s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
