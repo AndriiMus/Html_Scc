@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.block {
+  width: 250px;
+  height: 100px;
+
+  border-radius: 10px;
+
+  background-color: coral;
+
+  position: absolute;
+  left: calc(50% - 125px);
+  top: -100px;
+  text-align: center;
+  line-height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  vertical-align: middle;
+  animation: moving 2s;
+  animation-fill-mode: forwards;
+  animation-direction:normal;
+  transition-timing-function: ease;
+}
+
+@keyframes moving {
+  from {
+    top: -100px;
+  }
+  to {
+    top: calc(50vh - 50px);
+  }
+}
