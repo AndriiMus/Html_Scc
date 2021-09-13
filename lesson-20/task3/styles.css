@@ -6,11 +6,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-}
 
-.spinner {
-  position: absolute;
+  height: 100vh;
 }
 
 .spinner-text {
@@ -24,7 +21,7 @@
 
 .circle {
   position: relative;
-  left: 15px;
+left: calc(50% - 25px);
 
   margin-bottom: 8px;
 
