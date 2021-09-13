@@ -10,7 +10,13 @@
   height: 100vh;
 }
 
+.spinner{
+display: flex;
+
+}
+
 .spinner-text {
+  margin: auto;
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
@@ -20,8 +26,9 @@
 }
 
 .circle {
+  margin:auto
   position: relative;
-left: calc(50% - 25px);
+  left: calc(50% - 25px);
 
   margin-bottom: 8px;
 
