@@ -31,16 +31,54 @@ body {
   width: 20%;
   padding: 0.5em;
   float: left;
+  padding: 0px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0px;
 }
 
 .section {
   width: 60%;
   padding: 0.5em;
   float: left;
+  font-size: 1.25em;
 }
 
 .section__header {
-  font-size: 5%;
+  font-size: 5vw;
+  text-align: center;
+}
+
+.units-list {
+  line-height: 1.75em;
+}
+
+.nav-list-item {
+  margin: 0.5em;
+  height: 2em;
+  background: #808080;
+  padding-left: 0.5em;
+ 
+
+
+}
+
+.nav-list-link{
+  color: white;
+  display: block;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.css-units {
+  font-size: 1.125em;
+  font-weight: 700;
+  color: #8b0000;
+  background: #e5e5e5;
 }
 
 .news {
