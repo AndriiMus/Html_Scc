@@ -29,14 +29,14 @@ body {
 
 .navigation {
   width: 20%;
-  padding: 0.5em;
+ 
   float: left;
   padding: 0px;
 }
 
 .nav-list {
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
 }
 
 .section {
@@ -57,15 +57,13 @@ body {
 
 .nav-list-item {
   height: 2em;
-  margin-top: 0.5em;
-  position: relative;
+  margin-bottom: 0.5em;
+  line-height: 2em;
   background: #808080;
 }
 
 .nav-list-link {
-  position: absolute;
-  top: 50%;
-  margin-top: -0.625em;
+  height: 2em;
   padding-left: 0.5em;
   color: white;
   display: block;
