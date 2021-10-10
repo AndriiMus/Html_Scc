@@ -56,16 +56,17 @@ body {
 }
 
 .nav-list-item {
-  margin-bottom: 0.5em;
   height: 2em;
+  margin-top: 0.5em;
+  position: relative;
   background: #808080;
-  padding-left: 0.5em;
- 
-
-
 }
 
-.nav-list-link{
+.nav-list-link {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.625em;
+  padding-left: 0.5em;
   color: white;
   display: block;
   text-decoration: none;
