@@ -36,15 +36,17 @@ span {
  
   background: #faebd7;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px)  {
   .product {
     display: flex;
     flex-grow: 2;
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 900px) {
   .container {
     display: flex;
+    flex-direction: row;
   }
 }
