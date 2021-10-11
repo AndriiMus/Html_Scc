@@ -1,30 +1,67 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-html{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
-.header{
-    display: flex;
-    align-items: center;
-    height: 3em;
-    padding-left: 1em;
-    padding-right: 1em;
-    background: #eee;
+.header {
+  display: flex;
+  align-items: center;
+  height: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background: #eee;
 }
 
-.burger{
-    cursor: pointer;
-    font-size: 2em;
-    padding: 0px;
-    border: none;
-    background: none;
+.burger {
+  cursor: pointer;
+  font-size: 2em;
+  padding: 0px;
+  border: none;
+  background: none;
 }
-na
-.nav-list{
-    list-style-type: none;
-    padding: 0;
+
+.navigation {
+  width: 20%;
+  padding: 0.5em;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-list-item {
+  height: 2em;
+  margin-bottom: 0.5em;
+  line-height: 2em;
+
+  background: #808080;
+}
+
+.nav-list-link {
+  height: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  color: white;
+  display: block;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 600px) {
+    .burger{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigation{
+        display: none;
+    }
 }
