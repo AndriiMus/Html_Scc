@@ -3,6 +3,8 @@
   background: #ff7f50;
   min-height: 200px;
   flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .products-list {
@@ -10,6 +12,8 @@
   background: #006400;
   min-height: 200px;
   flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .news {
@@ -17,13 +21,15 @@
   background: #0ff;
   min-height: 200px;
   flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 span {
   text-transform: lowercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 8px;
-  margin: auto;
+  
+  margin:8px;
   background: #faebd7;
 }
 @media screen and (min-width: 600px) {
