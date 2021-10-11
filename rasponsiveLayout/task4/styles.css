@@ -29,9 +29,8 @@ body {
 
 .navigation {
   width: 20%;
- 
+
   float: left;
- 
 }
 
 .nav-list {
@@ -59,14 +58,14 @@ body {
   height: 2em;
   margin-bottom: 0.5em;
   line-height: 2em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+
   background: #808080;
 }
 
 .nav-list-link {
   height: 2em;
- 
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   color: white;
   display: block;
   text-decoration: none;
