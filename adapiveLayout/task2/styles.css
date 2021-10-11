@@ -1,0 +1,40 @@
+.navigation {
+  display: flex;
+  background: #ff7f50;
+  min-height: 200px;
+  flex-grow: 1;
+}
+
+.products-list {
+  display: flex;
+  background: #006400;
+  min-height: 200px;
+  flex-grow: 1;
+}
+
+.news {
+  display: flex;
+  background: #0ff;
+  min-height: 200px;
+  flex-grow: 1;
+}
+
+span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  margin: auto;
+  background: #faebd7;
+}
+@media screen and (min-width: 600px) {
+  .product {
+    display: flex;
+    flex-grow: 2;
+  }
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+      display: flex;
+    }
+  }
