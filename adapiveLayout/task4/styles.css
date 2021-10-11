@@ -8,8 +8,23 @@ html{
 }
 
 .header{
+    display: flex;
+    align-items: center;
     height: 3em;
     padding-left: 1em;
     padding-right: 1em;
     background: #eee;
+}
+
+.burger{
+    cursor: pointer;
+    font-size: 2em;
+    padding: 0px;
+    border: none;
+    background: none;
+}
+na
+.nav-list{
+    list-style-type: none;
+    padding: 0;
 }
