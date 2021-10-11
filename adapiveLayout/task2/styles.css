@@ -28,7 +28,7 @@
 span {
   text-transform: lowercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+  padding: 8px;
   margin:8px;
   background: #faebd7;
 }
