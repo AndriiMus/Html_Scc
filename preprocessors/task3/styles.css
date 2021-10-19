@@ -6,13 +6,20 @@
 .menu {
   margin: 0 0 0 0;
   padding: 0 0 0 3em;
+  align-content: center;
+  height: 3em;
+  display: flex;
+  align-items: center;
 }
 .menu__item {
   text-transform: uppercase;
   padding: 0 8px 0 8px;
-  line-height: 3em;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   color: #fff;
+}
+.menu__item-text {
+  display: inline-block;
 }
 .menu__item:hover {
   background-color: #9acd32;
