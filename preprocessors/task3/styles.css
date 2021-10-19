@@ -16,6 +16,7 @@
   padding: 0 8px 0 8px;
   display: inline-flex;
   align-items: center;
+  height: 3em;
   color: #fff;
 }
 .menu__item-text {
