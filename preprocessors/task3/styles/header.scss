@@ -9,20 +9,20 @@
   margin: 0 0 0 3em;
   padding: 0;
 
-
   &__item {
     text-transform: uppercase;
     padding: 0 8px 0 8px;
     line-height: 3em;
     display: inline-block;
     color: $color-text;
-
+   
     &:hover {
       background-color: $menu-hover-color;
     }
 
     &_active {
       color: $active-iteam-color;
+   
        &:hover{
            .submenu{
                display: inline-block;
@@ -33,7 +33,7 @@
 }
 
 .submenu {
-    display: none;
+  display: inline-block;
   background-color: $submenu-background-color;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   list-style-type: none;
@@ -41,12 +41,12 @@
   color: $color-text;
   min-width: $submenu-min-weidth;
   z-index: 1;
-  position: relative;
-  top: 100%;
-  left: 0;
-
+  position: absolute;
+top: 48px;
+left: 133px;
   &__item {
     padding: 0 8px 0 8px;
+ 
   }
 }
 
