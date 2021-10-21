@@ -1,0 +1,48 @@
+.navigation {
+    display: flex;
+    background: #ff7f50;
+    min-height: 200px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .products-list {
+    display: flex;
+    background: #006400;
+    min-height: 200px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .news {
+    display: flex;
+    background: #0ff;
+    min-height: 200px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  span {
+    text-transform: lowercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+   
+    background: #faebd7;
+  }
+  @media screen and (min-width: 600px)  {
+    .product {
+      display: flex;
+      flex: 2;
+      flex-direction: row;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+  }
